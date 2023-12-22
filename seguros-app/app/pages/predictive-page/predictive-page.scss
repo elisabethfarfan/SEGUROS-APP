@@ -1,0 +1,36 @@
+:root {
+    --page-bg-color: #5472d3;
+    --page-header-color: #5472d3;
+  }
+  
+  bbva-header-main {
+    --bbva-header-main-bg-color: var(--page-header-color);
+  }
+  
+  cells-template-paper-drawer-panel {
+    --cells-template-paper-drawer-panel-section-bg: var(--page-bg-color);
+  }
+  
+  cells-bbva-header-info-insurnace{
+    margin: 15px;
+  }
+  .container{
+    width: 100%;
+  }
+  .card-component{
+   width: 100%;
+  }
+
+ 
+  .predictive-form{
+    width: 100%;  
+    display: flex; 
+    justify-content: space-between;
+  }
+
+  bbva-web-card-product{
+    margin-left: 45px;
+  }
+  cell-bbva-form-predictive, bbva-web-card-product{
+    width: 40%;
+  }
